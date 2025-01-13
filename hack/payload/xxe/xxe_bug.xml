@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE hello [
+<!ENTITY xxe SYSTEM "http://hello.com">
+]>
+<hello>
+    <xxe>&xxe;</xxe>
+    <Bug>Bug</Bug>
+</hello>
